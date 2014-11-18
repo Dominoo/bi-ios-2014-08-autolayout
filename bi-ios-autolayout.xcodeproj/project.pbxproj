@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6812727C7148FD0EF076D8DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5635216BF78DC338D8140AF9 /* libPods.a */; };
+		B447F1911A1A227400B50124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1901A1A227400B50124 /* main.m */; };
+		B447F1941A1A227400B50124 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1931A1A227400B50124 /* AppDelegate.m */; };
+		B447F1971A1A227400B50124 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1961A1A227400B50124 /* ViewController.m */; };
+		B447F19C1A1A227400B50124 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B447F19B1A1A227400B50124 /* Images.xcassets */; };
+		B447F19F1A1A227400B50124 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B447F19D1A1A227400B50124 /* LaunchScreen.xib */; };
+		B447F1AB1A1A227400B50124 /* bi_ios_autolayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1AA1A1A227400B50124 /* bi_ios_autolayoutTests.m */; };
+		B447F1B61A1A254900B50124 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1B51A1A254900B50124 /* FirstViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B447F1A51A1A227400B50124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B447F1831A1A227400B50124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B447F18A1A1A227400B50124;
+			remoteInfo = "bi-ios-autolayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		536735530759460D898F71FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5635216BF78DC338D8140AF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7EED3C1C090130137A102 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B447F18B1A1A227400B50124 /* bi-ios-autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bi-ios-autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B447F18F1A1A227400B50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447F1901A1A227400B50124 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B447F1921A1A227400B50124 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B447F1931A1A227400B50124 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B447F1951A1A227400B50124 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B447F1961A1A227400B50124 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B447F19B1A1A227400B50124 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B447F19E1A1A227400B50124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B447F1A41A1A227400B50124 /* bi-ios-autolayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bi-ios-autolayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B447F1A91A1A227400B50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B447F1AA1A1A227400B50124 /* bi_ios_autolayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bi_ios_autolayoutTests.m; sourceTree = "<group>"; };
+		B447F1B41A1A254900B50124 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B447F1B51A1A254900B50124 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B447F1881A1A227400B50124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6812727C7148FD0EF076D8DE /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447F1A11A1A227400B50124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95E177AA97A28B91990E5287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7EED3C1C090130137A102 /* Pods.debug.xcconfig */,
+				536735530759460D898F71FA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B447F1821A1A227400B50124 = {
+			isa = PBXGroup;
+			children = (
+				B447F18D1A1A227400B50124 /* bi-ios-autolayout */,
+				B447F1A71A1A227400B50124 /* bi-ios-autolayoutTests */,
+				B447F18C1A1A227400B50124 /* Products */,
+				95E177AA97A28B91990E5287 /* Pods */,
+				E1F98C52B325F2CD4B768BCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B447F18C1A1A227400B50124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B447F18B1A1A227400B50124 /* bi-ios-autolayout.app */,
+				B447F1A41A1A227400B50124 /* bi-ios-autolayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B447F18D1A1A227400B50124 /* bi-ios-autolayout */ = {
+			isa = PBXGroup;
+			children = (
+				B447F1921A1A227400B50124 /* AppDelegate.h */,
+				B447F1931A1A227400B50124 /* AppDelegate.m */,
+				B447F1951A1A227400B50124 /* ViewController.h */,
+				B447F1961A1A227400B50124 /* ViewController.m */,
+				B447F19B1A1A227400B50124 /* Images.xcassets */,
+				B447F19D1A1A227400B50124 /* LaunchScreen.xib */,
+				B447F18E1A1A227400B50124 /* Supporting Files */,
+				B447F1B41A1A254900B50124 /* FirstViewController.h */,
+				B447F1B51A1A254900B50124 /* FirstViewController.m */,
+			);
+			path = "bi-ios-autolayout";
+			sourceTree = "<group>";
+		};
+		B447F18E1A1A227400B50124 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B447F18F1A1A227400B50124 /* Info.plist */,
+				B447F1901A1A227400B50124 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B447F1A71A1A227400B50124 /* bi-ios-autolayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B447F1AA1A1A227400B50124 /* bi_ios_autolayoutTests.m */,
+				B447F1A81A1A227400B50124 /* Supporting Files */,
+			);
+			path = "bi-ios-autolayoutTests";
+			sourceTree = "<group>";
+		};
+		B447F1A81A1A227400B50124 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B447F1A91A1A227400B50124 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1F98C52B325F2CD4B768BCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5635216BF78DC338D8140AF9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B447F18A1A1A227400B50124 /* bi-ios-autolayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B447F1AE1A1A227400B50124 /* Build configuration list for PBXNativeTarget "bi-ios-autolayout" */;
+			buildPhases = (
+				117A74754EAC79B62774B581 /* Check Pods Manifest.lock */,
+				B447F1871A1A227400B50124 /* Sources */,
+				B447F1881A1A227400B50124 /* Frameworks */,
+				B447F1891A1A227400B50124 /* Resources */,
+				8D002072DF12899E850EFFF2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bi-ios-autolayout";
+			productName = "bi-ios-autolayout";
+			productReference = B447F18B1A1A227400B50124 /* bi-ios-autolayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B447F1A31A1A227400B50124 /* bi-ios-autolayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B447F1B11A1A227400B50124 /* Build configuration list for PBXNativeTarget "bi-ios-autolayoutTests" */;
+			buildPhases = (
+				B447F1A01A1A227400B50124 /* Sources */,
+				B447F1A11A1A227400B50124 /* Frameworks */,
+				B447F1A21A1A227400B50124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B447F1A61A1A227400B50124 /* PBXTargetDependency */,
+			);
+			name = "bi-ios-autolayoutTests";
+			productName = "bi-ios-autolayoutTests";
+			productReference = B447F1A41A1A227400B50124 /* bi-ios-autolayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B447F1831A1A227400B50124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Ackee s.r.o.";
+				TargetAttributes = {
+					B447F18A1A1A227400B50124 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					B447F1A31A1A227400B50124 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = B447F18A1A1A227400B50124;
+					};
+				};
+			};
+			buildConfigurationList = B447F1861A1A227400B50124 /* Build configuration list for PBXProject "bi-ios-autolayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B447F1821A1A227400B50124;
+			productRefGroup = B447F18C1A1A227400B50124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B447F18A1A1A227400B50124 /* bi-ios-autolayout */,
+				B447F1A31A1A227400B50124 /* bi-ios-autolayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B447F1891A1A227400B50124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447F19F1A1A227400B50124 /* LaunchScreen.xib in Resources */,
+				B447F19C1A1A227400B50124 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447F1A21A1A227400B50124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		117A74754EAC79B62774B581 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D002072DF12899E850EFFF2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B447F1871A1A227400B50124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447F1971A1A227400B50124 /* ViewController.m in Sources */,
+				B447F1941A1A227400B50124 /* AppDelegate.m in Sources */,
+				B447F1911A1A227400B50124 /* main.m in Sources */,
+				B447F1B61A1A254900B50124 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B447F1A01A1A227400B50124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B447F1AB1A1A227400B50124 /* bi_ios_autolayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B447F1A61A1A227400B50124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B447F18A1A1A227400B50124 /* bi-ios-autolayout */;
+			targetProxy = B447F1A51A1A227400B50124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B447F19D1A1A227400B50124 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B447F19E1A1A227400B50124 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B447F1AC1A1A227400B50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B447F1AD1A1A227400B50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B447F1AF1A1A227400B50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB7EED3C1C090130137A102 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bi-ios-autolayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B447F1B01A1A227400B50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536735530759460D898F71FA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "bi-ios-autolayout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B447F1B21A1A227400B50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bi-ios-autolayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bi-ios-autolayout.app/bi-ios-autolayout";
+			};
+			name = Debug;
+		};
+		B447F1B31A1A227400B50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "bi-ios-autolayoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bi-ios-autolayout.app/bi-ios-autolayout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B447F1861A1A227400B50124 /* Build configuration list for PBXProject "bi-ios-autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447F1AC1A1A227400B50124 /* Debug */,
+				B447F1AD1A1A227400B50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B447F1AE1A1A227400B50124 /* Build configuration list for PBXNativeTarget "bi-ios-autolayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447F1AF1A1A227400B50124 /* Debug */,
+				B447F1B01A1A227400B50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B447F1B11A1A227400B50124 /* Build configuration list for PBXNativeTarget "bi-ios-autolayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B447F1B21A1A227400B50124 /* Debug */,
+				B447F1B31A1A227400B50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B447F1831A1A227400B50124 /* Project object */;
+}
