@@ -12,6 +12,8 @@
 
 @interface FirstViewController ()
 @property (nonatomic,assign) BOOL blue;
+@property (nonatomic,assign) BOOL red;
+
 @end
 
 @implementation FirstViewController
@@ -21,6 +23,7 @@
     
     
     _blue = YES;
+    _red = YES;
     
     
     self.view.backgroundColor = [UIColor whiteColor];
@@ -29,7 +32,7 @@
     v1.backgroundColor = [UIColor redColor];
     [self.view addSubview:v1];
     [v1 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(@10);
+        make.top.equalTo(self.view.mas_top).with.offset(10);
         make.left.equalTo(@10);
         make.height.equalTo(self.view).multipliedBy(2/3.);
         make.width.equalTo(self.view).multipliedBy(1/2.).with.offset(-10);
@@ -41,23 +44,27 @@
     [v2 mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(v1.mas_top);
         make.left.equalTo(v1.mas_right).with.offset(10);
-        make.height.equalTo(self.view).multipliedBy(1/3.);
+        make.height.equalTo(v1).multipliedBy(1/2.);
         make.right.equalTo(@-10);
     }];
-
     
     UIView* v3 = [UIView new];
     v3.backgroundColor = [UIColor greenColor];
     [self.view addSubview:v3];
     [v3 mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.bottom.equalTo(@-10);
+        make.bottom.equalTo(self.view.mas_bottom).with.offset(-10);
+        make.top.equalTo(v1.mas_bottom).with.offset(10).with.priorityLow();
         make.left.equalTo(@10);
         make.height.equalTo(self.view).multipliedBy(1/3.).with.offset(-30);
         make.right.equalTo(@-10);
     }];
+
+
+
     
     
-    /*[v2 onTap:^(id sender) {
+    
+    [v2 onTap:^(id sender) {
        //[UIView animateWithDuration:1.5 animations:^{
            [UIView animateWithDuration:1.5 delay:0 usingSpringWithDamping:0.5 initialSpringVelocity:1 options:0 animations:^{
                if(_blue) {
@@ -87,15 +94,14 @@
                }
                _blue = !_blue;
                
-               [v1 layoutIfNeeded];
-               [v2 layoutIfNeeded];
+               [self.view layoutIfNeeded];
 
            } completion:^(BOOL finished) {
                
            }];
                   }];
    // }];
-    */
+    
     
     
     
