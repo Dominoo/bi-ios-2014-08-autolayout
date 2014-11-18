@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import <Masonry.h>
 #import "FirstViewController.h"
+#import "LoginController.h"
 
 @interface ViewController ()
 @property (nonatomic,weak) UITableView* table;
@@ -35,8 +36,8 @@
         make.edges.equalTo(self.view);
     }];
     
-    self.array = @[@"4 stejne boxy"];
-    self.controllers = @[[FirstViewController new]];
+    self.array = @[@"4 stejne boxy", @"Login"];
+    self.controllers = @[[FirstViewController new], [LoginController new]];
     
 }
 

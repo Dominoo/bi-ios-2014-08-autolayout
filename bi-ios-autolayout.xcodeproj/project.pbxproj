@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6812727C7148FD0EF076D8DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5635216BF78DC338D8140AF9 /* libPods.a */; };
+		6D60C5681A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D60C5661A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.m */; };
+		6D82A06C1A1B29D4001C14FE /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D82A06B1A1B29D4001C14FE /* LoginController.m */; };
 		B447F1911A1A227400B50124 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1901A1A227400B50124 /* main.m */; };
 		B447F1941A1A227400B50124 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1931A1A227400B50124 /* AppDelegate.m */; };
 		B447F1971A1A227400B50124 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B447F1961A1A227400B50124 /* ViewController.m */; };
@@ -30,6 +32,10 @@
 /* Begin PBXFileReference section */
 		536735530759460D898F71FA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5635216BF78DC338D8140AF9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D60C5661A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSKeyboardLayoutGuideViewController.m; sourceTree = "<group>"; };
+		6D60C5671A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSKeyboardLayoutGuideViewController.h; sourceTree = "<group>"; };
+		6D82A06A1A1B29D4001C14FE /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		6D82A06B1A1B29D4001C14FE /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		ACB7EED3C1C090130137A102 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B447F18B1A1A227400B50124 /* bi-ios-autolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bi-ios-autolayout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B447F18F1A1A227400B50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -107,6 +113,10 @@
 				B447F18E1A1A227400B50124 /* Supporting Files */,
 				B447F1B41A1A254900B50124 /* FirstViewController.h */,
 				B447F1B51A1A254900B50124 /* FirstViewController.m */,
+				6D82A06A1A1B29D4001C14FE /* LoginController.h */,
+				6D82A06B1A1B29D4001C14FE /* LoginController.m */,
+				6D60C5661A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.m */,
+				6D60C5671A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.h */,
 			);
 			path = "bi-ios-autolayout";
 			sourceTree = "<group>";
@@ -279,6 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D60C5681A1B2E8300A39C86 /* JPSKeyboardLayoutGuideViewController.m in Sources */,
+				6D82A06C1A1B29D4001C14FE /* LoginController.m in Sources */,
 				B447F1971A1A227400B50124 /* ViewController.m in Sources */,
 				B447F1941A1A227400B50124 /* AppDelegate.m in Sources */,
 				B447F1911A1A227400B50124 /* main.m in Sources */,
